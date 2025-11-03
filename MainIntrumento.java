@@ -15,9 +15,8 @@ public class MainIntrumento {
 		I1.tocar();
 		I3.tocar();
 		I2.tocar();
-		I2.tocar();
 		
-		I1.toString();
 		System.out.println(I1.toString() + I2.toString() + I3.toString());
 	}
 }
+
