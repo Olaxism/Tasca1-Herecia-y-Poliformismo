@@ -1,22 +1,21 @@
-package sprint1;
+package sprint_1.tasca_1.nivel_1.ejercicio_1;
 
-public class MainIntrumento {
+public class MainInstrumento {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		System.out.println("Comencemos a tocar");
+   public static void main(String[] args) {
+    System.out.println("Comencemos a tocar");
 
-		
-		Instrumento I1 = new Instrumento ("Xilófono", 32.50, "\nEsta sonando un instrumento de percusión.");
-		Instrumento I2 = new Instrumento ( "Fagot", 120.90, "\nEsta sonando un instrumento de viento.");
-		Instrumento I3 = new Instrumento ("Bajo", 285.00, "\nEsta sonando un intrumento de cuerda.");
-		
-		I1.tocar();
-		I3.tocar();
-		I2.tocar();
-		
-		System.out.println(I1.toString() + I2.toString() + I3.toString());
-	}
+    InstrumentoPercusion i1 = new InstrumentoPercusion ("Xilofono", 150.75);
+    InstrumentoViento i2 = new InstrumentoViento ("Fagot", 120.90);
+    InstrumentoCuerda i3 = new InstrumentoCuerda ("Bajo", 284.99);
+
+    i1.tocar();
+    i3.tocar();
+    i2.tocar();
+
+    System.out.println(Instrumento.marca); //Ejecucion de bloque estatico a traves de un atributo.
+
+   }
 }
+
 
