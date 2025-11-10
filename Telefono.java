@@ -1,4 +1,4 @@
-package sprint_1.tasca_1.nivel_2;
+package sprint_1.tasca_1.nivel_2.classes;
 
 public abstract class Telefono {
 
@@ -33,7 +33,4 @@ public abstract class Telefono {
     public String toString() {
         return "Telefono [marca= " + getMarca() + ", modelo= " + getModelo() + ", numero= " + getNumero() + "]";
     }
-
 }
-
-
