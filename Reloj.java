@@ -1,8 +1,8 @@
-package sprint1;
+package sprint_1.tasca_1.nivel_2;
 
-public class Reloj {
-	
-	public void alarma() {
-		System.out.println("Está sonando la alarma");
-	}
+public interface Reloj {
+
+    default void alarma() {
+        System.out.println("Está sonando la alarma");
+    }
 }
