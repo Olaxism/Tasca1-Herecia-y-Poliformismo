@@ -1,8 +1,9 @@
-package sprint1;
+package sprint_1.tasca_1.nivel_2;
 
-public class Camara {
+public interface Camara {
 
-	public void fotografiar() {
-		System.out.println("Se esta haciendo una foto");
-	}
+    default void fotografiar() {
+        System.out.println("Se esta haciendo una foto");
+    }
 }
+
