@@ -1,4 +1,4 @@
-package sprint_1.tasca_1.nivel_1.ejercicio_1;
+package sprint_1.tasca_1.nivel_1.ejercicio_1.classes;
 
 public abstract class Instrumento {
 
@@ -31,3 +31,4 @@ public abstract class Instrumento {
         return "\nInstrumento {Nombre= " + getNombre() +
                 ", Precio= " + getPrecio() + " euros.}";}
     }
+
