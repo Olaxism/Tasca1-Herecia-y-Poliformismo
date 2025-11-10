@@ -1,4 +1,4 @@
-package sprint_1.tasca_1.nivel_2;
+package sprint_1.tasca_1.nivel_2.interfaces;
 
 public interface Camara {
 
@@ -6,4 +6,3 @@ public interface Camara {
         System.out.println("Se esta haciendo una foto");
     }
 }
-
