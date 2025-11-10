@@ -1,4 +1,4 @@
-package sprint_1.tasca_1.nivel_2;
+package sprint_1.tasca_1.nivel_2.interfaces;
 
 public interface Reloj {
 
