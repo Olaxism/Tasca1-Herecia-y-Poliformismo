@@ -1,15 +1,15 @@
-package sprint_1.tasca_1.nivel_1.ejercicio_2;
+package sprint_1.tasca_1.nivel_1.ejercicio_2.classes;
 
 public class Vehiculo {
 
     private static final String marca = "Toyota";
     private static String modelo;
-    private final double potencia = 75.0;
+    private final double potencia;
     private static String frenar;
     private String acelerar;
 
-    public Vehiculo (String modelo) {
-        this.modelo = modelo;
+    public Vehiculo () {
+        this.potencia = 90.0;
     }
 
     public static String getMarca() {
@@ -40,6 +40,3 @@ public class Vehiculo {
                 + "potencia= " + potencia + "]";
     }
 }
-
-
-
