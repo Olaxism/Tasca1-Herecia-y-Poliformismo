@@ -1,6 +1,6 @@
-package sprint_1.tasca_1.nivel_1.ejercicio_1;
+package sprint_1.tasca_1.nivel_1.ejercicio_1.classes;
 
-public class InstrumentoCuerda extends Instrumento{
+public class InstrumentoCuerda extends Instrumento {
 
     public InstrumentoCuerda (String nombre, double precio) {
         super (nombre, precio);
